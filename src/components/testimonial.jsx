@@ -5,17 +5,17 @@ function testimonial() {
 
     let data = [
         {
-            imageSrc:'src/assets/img/testimonials-1.jpg',
+            imageSrc:'./assets/img/testimonials-1.jpg',
             name:'Margaret E.',
             comments:'"This is fantastic! Thanks so much guys!"'
         },
         {
-            imageSrc:'src/assets/img/testimonials-2.jpg',
+            imageSrc:'./assets/img/testimonials-2.jpg',
             name:'Fred S.',
             comments:'"Bootstrap is amazing. I have been using it to create lots of super nice landing pages."'
         },
         {
-            imageSrc:'src/assets/img/testimonials-3.jpg',
+            imageSrc:'./assets/img/testimonials-3.jpg',
             name:'Sarah W.',
             comments:'"Thanks so much for making these free resources available to us!"'
         }
