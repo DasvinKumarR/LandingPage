@@ -1,21 +1,24 @@
 import React from 'react'
 import TestimonialCard from './testimonialCard'
+import testimonial1 from '../assets/img/testimonials-1.jpg'
+import testimonial2 from '../assets/img/testimonials-2.jpg'
+import testimonial3 from '../assets/img/testimonials-3.jpg'
 
 function testimonial() {
 
     let data = [
         {
-            imageSrc:'../src/assets/img/testimonials-1.jpg',
+            imageSrc:testimonial1,
             name:'Margaret E.',
             comments:'"This is fantastic! Thanks so much guys!"'
         },
         {
-            imageSrc:'../src/assets/img/testimonials-2.jpg',
+            imageSrc:testimonial2,
             name:'Fred S.',
             comments:'"Bootstrap is amazing. I have been using it to create lots of super nice landing pages."'
         },
         {
-            imageSrc:'../src/assets/img/testimonials-3.jpg',
+            imageSrc:testimonial3,
             name:'Sarah W.',
             comments:'"Thanks so much for making these free resources available to us!"'
         }
