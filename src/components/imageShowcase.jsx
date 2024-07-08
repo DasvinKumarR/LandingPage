@@ -4,6 +4,7 @@ function imageShowcase({ data, indexValue }) {
     return (
         <>
             {
+                // Image show case card
                 (indexValue + 1) % 2 === 0 ? (
                     // Conditionally render content if indexValue + 1 is even
                     <div className="row g-0">
